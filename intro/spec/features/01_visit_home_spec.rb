@@ -15,7 +15,7 @@ feature 'Visit The-Internet Home Page' do
   end
 
   scenario 'Current URL: https://the-internet.herokuapp.com/' do
-    expect(current_url).to eq('https://the-internet.herokuapp.com/')
+    expect(page).to have_current_path('https://the-internet.herokuapp.com')
   end
 
   scenario 'Verify Link Exists: Form Authentication' do
@@ -24,7 +24,7 @@ feature 'Visit The-Internet Home Page' do
 
   scenario 'Click Link: Form Authentication ==> Navigate to /login' do
     click_link('Form Authentication')
-    expect(current_url).to eq('https://the-internet.herokuapp.com/login')
+    expect(page).to have_current_path('/login')
   end
 
   scenario 'Verify Link Exists: Dropdown' do
@@ -34,12 +34,12 @@ feature 'Visit The-Internet Home Page' do
   scenario 'Click On: Dropdown ==> Navigate to /dropdown' do
     # Click on a Link or Button
     click_on('Dropdown')
-    expect(current_url).to eq('https://the-internet.herokuapp.com/dropdown')
+    expect(page).to have_current_path('/dropdown')
   end
 
   scenario 'Find Link and Click: Dynamic Loading ==> Navigate to /dynamic_loading' do
     # Can find_button('Text').click too!
     find_link('Dynamic Loading').click
-    expect(current_url).to eq('https://the-internet.herokuapp.com/dynamic_loading')
+    expect(page).to have_current_path('/dynamic_loading')
   end
 end
