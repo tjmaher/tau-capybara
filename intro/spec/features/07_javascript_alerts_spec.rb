@@ -46,7 +46,6 @@ feature 'JavaScript Alerts: Interacting with Modals' do
       click_button('Click for JS Confirm')
     end
     expect(message).to eq('I am a JS Confirm')
-    save_and_open_screenshot
     expect(page).to have_content('You clicked: Ok')
   end
 end
