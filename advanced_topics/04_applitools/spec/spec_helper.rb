@@ -6,16 +6,12 @@ require 'capybara/rspec'
 
 require 'eyes_selenium'
 require 'eyes_capybara'
-# require 'applitools/capybara'
-
-MY_API_KEY = '1HWNQQkG5dGMVMTRSfGVsya5mfvlNVJ98LoOxeo6eEYI110'
 
 Bundler.setup(:default)
 Bundler.require
 
-Capybara.default_driver = :selenium_chome
-Capybara.app_host = 'https://the-internet.herokuapp.com'
 Capybara.default_max_wait_time = 10
+Capybara.app_host = 'https://the-internet.herokuapp.com'
 
 Applitools.register_capybara_driver :browser => :chrome
 
