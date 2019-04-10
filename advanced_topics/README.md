@@ -4,7 +4,7 @@
 
 ##  Advanced Topics 
 
-The [Advanced Topics](https://github.com/tjmaher/tau-capybara/tree/master/advanced_topics) section consists of four sample projects: 
+The [Advanced Topics](https://github.com/tjmaher/tau-capybara/tree/master/advanced_topics) section consists of four sample projects each with their own folder, Gemfiles, and separate dependencies which need to be installed with Bundler. 
 
 * [01_debugging_with_save_and_open](https://github.com/tjmaher/tau-capybara/tree/master/advanced_topics/01_debugging_with_save_and_open): Explore how Capybara saves screenshots, then with the Launchy gem, opens them to view. 
 * [02_chrome_logging](https://github.com/tjmaher/tau-capybara/tree/master/advanced_topics/02_chrome_logging): Examine how the Chromium project has allowed users to trap Selenium WebDriver errors, and JavaScript errors in the browser. 
