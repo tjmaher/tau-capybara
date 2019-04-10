@@ -2,7 +2,7 @@
 
 ## About TAU-Capybara
 
-[Test Automation Univerity](https://testautomationu.applitools.com/) is an [Applitools](http://applitools.com) sponsored free collection of courses to help train automation developers -- from those just entering the field, to seasoned experts -- in their craft. 
+[Test Automation Univerity](https://testautomationu.applitools.com/) is an [Applitools](http://applitools.com) sponsored free collection of courses to help train automation developers -- from those just entering the field to seasoned experts -- in their craft. 
 
 **TAU-Capybara** is the companion piece for the Test Automation University course, Introduction to Capybara, created by [T.J. Maher](http://tjmaher.com).
 
@@ -21,7 +21,7 @@ In order to run tests in the intro section:
 
 ## Some Advanced Topics 
 
-The [Advanced Topics|https://github.com/tjmaher/tau-capybara/tree/master/advanced_topics] section consists of four sample projects: 
+The [Advanced Topics](https://github.com/tjmaher/tau-capybara/tree/master/advanced_topics) section consists of four sample projects: 
 
 * [01_debugging_with_save_and_open](https://github.com/tjmaher/tau-capybara/tree/master/advanced_topics/01_debugging_with_save_and_open): Explore how Capybara saves screenshots, then with the Launchy gem, opens them to view. 
 * [02_chrome_logging](https://github.com/tjmaher/tau-capybara/tree/master/advanced_topics/02_chrome_logging): Examine how the Chromium project has allowed users to trap Selenium WebDriver errors, and JavaScript errors in the browser. 
