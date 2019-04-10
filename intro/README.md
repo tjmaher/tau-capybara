@@ -25,14 +25,14 @@ All sample code in [tau-capybara/intro/spec/features/](https://github.com/tjmahe
 * Find Link and Click: Dynamic Loading ==> Navigate to /dynamic_loading
 
 
-**intro/spec/features/**[02_within_spec.rb](https://github.com/tjmaher/tau-capybara/blob/master/intro/spec/features/02_within_spec.rb)
+## intro/spec/features/[02_within_spec.rb](https://github.com/tjmaher/tau-capybara/blob/master/intro/spec/features/02_within_spec.rb)
 
 ### Within: Scoping
 https://the-internet.herokuapp.com/checkboxes
 * Within (Checkboxes): checkbox 1
 * Within (Checkboxes): checkbox 2
 
-**intro/spec/features/** [03_login_spec.rb](https://github.com/tjmaher/tau-capybara/blob/master/intro/spec/features/03_login_spec.rb)
+## intro/spec/features/[03_login_spec.rb](https://github.com/tjmaher/tau-capybara/blob/master/intro/spec/features/03_login_spec.rb)
 
 ### Login Page: Validate Page Elements
 https://the-internet.herokuapp.com/login
@@ -48,7 +48,7 @@ https://the-internet.herokuapp.com/login
 ### Login Page: Valid Credentials Login to Secure Area
 * tomsmith / SuperSecretPassword!
 
-**intro/spec/features/**[04_secure_area_spec.rb](https://github.com/tjmaher/tau-capybara/blob/master/intro/spec/features/04_secure_area_spec.rb) 
+## intro/spec/features/[04_secure_area_spec.rb](https://github.com/tjmaher/tau-capybara/blob/master/intro/spec/features/04_secure_area_spec.rb) 
 
 ### Secure Area: Validate Page Elements After Login
 * Displayed Title: Secure Area
@@ -59,7 +59,7 @@ https://the-internet.herokuapp.com/login
 ### Secure Area: User Can Logout
 * Select Logout Button: Login Page with Info Message
 
-**intro/spec/features/**[05_dropdown_spec.rb](https://github.com/tjmaher/tau-capybara/blob/master/intro/spec/features/05_dropdown_spec.rb)
+## intro/spec/features/[05_dropdown_spec.rb](https://github.com/tjmaher/tau-capybara/blob/master/intro/spec/features/05_dropdown_spec.rb)
 
 ### Dropdown List: Validate Page Elements
 https://the-internet.herokuapp.com/dropdown
@@ -74,7 +74,7 @@ https://the-internet.herokuapp.com/dropdown
 * Displayed Title: Dynamically Loaded Page Elements
 * Displayed Button: Start
 
-**intro/spec/features/**[06_slow_loading_spec.rb](https://github.com/tjmaher/tau-capybara/blob/master/intro/spec/features/06_slow_loading_spec.rb)
+## intro/spec/features/[06_slow_loading_spec.rb](https://github.com/tjmaher/tau-capybara/blob/master/intro/spec/features/06_slow_loading_spec.rb)
 ### Checking Slow Loading Components
 * Page Should Wait For Hello World
 
@@ -85,7 +85,7 @@ https://the-internet.herokuapp.com/javascript_alerts
 * Displayed Button: Click for JS Confirm
 * Displayed Button: Click for JS Prompt
 
-**intro/spec/features/**[07_javascript_alerts_spec.rb](https://github.com/tjmaher/tau-capybara/blob/master/intro/spec/features/07_javascript_alerts_spec.rb)
+## intro/spec/features/[07_javascript_alerts_spec.rb](https://github.com/tjmaher/tau-capybara/blob/master/intro/spec/features/07_javascript_alerts_spec.rb)
 
 ### JavaScript Alerts: Interacting with Modals
 * JS Alert: Select [OK] => Message: Successfully Clicked Alert
