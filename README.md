@@ -6,11 +6,11 @@
 
 **TAU-Capybara** is the companion piece for the Test Automation University course, Introduction to Capybara, created by [T.J. Maher](http://tjmaher.com).
 
-## An Intro to Capybara
+## An Introduction to Capybara
 
 Capybara is a domain specific language – a DSL – that comes with methods that allow you to visit a page, fill in a textbox, click a button, click a link, check a checkbox, choose a radio button, selecting an item from a dropdown, search within a section of the page, test a login screen, and verify popups and modals work. Sample code for these features can be found in the [intro](https://github.com/tjmaher/tau-capybara/tree/master/intro) section. 
 
-## Running Intro 
+### Running Intro Projects 
 
 In order to run tests in the intro section:
 * Download the entire TAU Capybara project to your local machine, through Zip file or Git. 
@@ -19,7 +19,7 @@ In order to run tests in the intro section:
 * Run all tests in the spec folder: *bundle exec rspec spec*
 * Run only the first test in the spec folder: *bundle exec rspec spec/features/01_visit_home_spec.rb*
 
-## Some Advanced Topics 
+## Exploring Advanced Topics 
 
 The [Advanced Topics](https://github.com/tjmaher/tau-capybara/tree/master/advanced_topics) section consists of four sample projects: 
 
@@ -28,7 +28,7 @@ The [Advanced Topics](https://github.com/tjmaher/tau-capybara/tree/master/advanc
 * [03_apparition_driver](https://github.com/tjmaher/tau-capybara/tree/master/advanced_topics/03_apparition_driver): Implementing the new headless Apparition browser, created by Thomas Walpole, the current maintainer of Capybara. 
 * [04_applitools](https://github.com/tjmaher/tau-capybara/tree/master/advanced_topics/04_applitools): Review how to integrate Applitools Eyes into your Capybara project in order to perform visual validation. 
 
-## Running Advanced_Topics 
+### Running Advanced_Topics Projects
 
 Each of the four Advanced Topics has its own project folder. In order to run:
 * From the root folder: Change the directory to the topic you wish, such as: *cd advanced_topics/01_debugging_with_save_and_open*
