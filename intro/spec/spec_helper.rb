@@ -12,7 +12,7 @@ Bundler.require
 # :selenium_chrome_headless # Selenium driving Chrome in a headless configuration
 # https://github.com/teamcapybara/capybara#selenium
 
-Capybara.default_driver = :selenium_chome
+Capybara.default_driver = :selenium_chrome
 Capybara.app_host = 'https://the-internet.herokuapp.com'
 Capybara.default_max_wait_time = 10
 
