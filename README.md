@@ -4,7 +4,7 @@
 
 [Test Automation Univerity](https://testautomationu.applitools.com/) is an [Applitools](http://applitools.com) sponsored free collection of courses to help train automation developers in their craft, from those just entering the field to seasoned experts. 
 
-**TAU-Capybara** is the companion piece for the Test Automation University course, Introduction to Capybara, created by [T.J. Maher](http://tjmaher.com).
+**TAU-Capybara** is the companion piece for the Test Automation University course, [Introduction to Capybara](https://testautomationu.applitools.com/capybara-ruby/), created by [T.J. Maher](http://tjmaher.com).
 
 ## An Introduction to Capybara
 
