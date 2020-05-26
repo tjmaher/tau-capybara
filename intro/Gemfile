@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 
-gem 'capybara', '~> 3.13', '>= 3.13.2' # Released: January 24, 2019
-gem 'rspec', '~> 3.8' # Released: August 4, 2018
-gem 'rubocop', '~> 0.65.0' # Released: Feb 19, 2019
-gem 'selenium-webdriver', '~> 3.141' # Released: November 1, 2018
-gem 'launchy', '~> 2.4', '>= 2.4.3' # Released November 3, 2014
-gem 'webdrivers', '~> 4.1.0' # Released October 7, 2019
-gem 'ffi', '~> 1.11', '>= 1.11.3'
+gem 'capybara', '~> 3.32', '>= 3.32.2' # Released: May 16, 2020
+gem 'rspec', '~> 3.9' # Released: October 08, 2019
+gem 'rubocop', '~> 0.84.0' # Released: May 21, 2020
+gem 'selenium-webdriver', '~> 3.142', '>= 3.142.7' # Released: December 27, 2019
+gem 'launchy', '~> 2.5' # Released February 28, 2020
+gem 'webdrivers', '~> 4.3' # Released April 15, 2020
+gem 'ffi', '~> 1.12', '>= 1.12.2' # Released February 01, 2020
