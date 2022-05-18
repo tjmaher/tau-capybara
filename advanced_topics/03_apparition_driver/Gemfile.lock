@@ -1,8 +1,8 @@
 GIT
-  remote: git://github.com/twalpole/apparition.git
-  revision: 292a16ed741132c392e013a3eb1efd003a175615
+  remote: https://github.com/twalpole/apparition.git
+  revision: ca86be4d54af835d531dbcd2b86e7b2c77f85f34
   specs:
-    apparition (0.4.0)
+    apparition (0.6.0)
       capybara (~> 3.13, < 4)
       websocket-driver (>= 0.6.5)
 
@@ -24,10 +24,12 @@ GEM
     diff-lcs (1.3)
     ffi (1.12.2)
     mini_mime (1.0.2)
-    mini_portile2 (2.4.0)
-    nokogiri (1.10.8)
-      mini_portile2 (~> 2.4.0)
+    mini_portile2 (2.8.0)
+    nokogiri (1.13.6)
+      mini_portile2 (~> 2.8.0)
+      racc (~> 1.4)
     public_suffix (3.1.1)
+    racc (1.6.0)
     rack (2.0.7)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
@@ -50,9 +52,9 @@ GEM
     selenium-webdriver (3.142.3)
       childprocess (>= 0.5, < 2.0)
       rubyzip (~> 1.2, >= 1.2.2)
-    websocket-driver (0.7.1)
+    websocket-driver (0.7.5)
       websocket-extensions (>= 0.1.0)
-    websocket-extensions (0.1.4)
+    websocket-extensions (0.1.5)
     xpath (3.2.0)
       nokogiri (~> 1.8)
 
