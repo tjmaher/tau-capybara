@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'capybara', '~> 3.13', '>= 3.13.2'
-gem 'rspec', '~> 3.8'
-gem 'selenium-webdriver', '~> 3.141'
-gem 'eyes_capybara', '~> 3.14', '>= 3.14.10'
-gem 'ffi', '~> 1.11', '>= 1.11.3'
+gem 'capybara', '~> 3.39', '>= 3.39.2' # June 10, 2023
+gem 'rspec', '~> 3.12' # October 26, 2022
+gem 'selenium-webdriver', '~> 4.13', '>= 4.13.1' # September 26, 2023
+gem 'ffi', '~> 1.16', '>= 1.16.2' # September 25, 2023
+gem 'rexml', '~> 3.2', '>= 3.2.6' # July 27, 2023
+gem 'eyes_capybara', '~> 5.0' # July 11, 2023

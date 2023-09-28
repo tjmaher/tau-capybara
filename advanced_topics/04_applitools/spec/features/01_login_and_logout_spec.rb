@@ -5,7 +5,7 @@ describe 'Applitools Capybara Example', :type => :feature, :js => true do
   # Initialize the eyes SDK and set your private API key.
   let(:eyes) do
     Applitools::Selenium::Eyes.new.tap do |eyes|
-      eyes.api_key = '1HWNQQkG5dGMVMTRSfGVsya5mfvlNVJ98LoOxeo6eEYI110'
+      eyes.api_key = APPLITOOLS_KEY_API
     end
   end
 

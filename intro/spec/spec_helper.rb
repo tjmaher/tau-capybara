@@ -18,6 +18,7 @@ Bundler.require
 Capybara.default_driver = :selenium
 Capybara.app_host = 'https://the-internet.herokuapp.com'
 Capybara.default_max_wait_time = 10
+# Capybara.default_max_wait_time = 30
 
 # Run using:
 # bundle exec rspec spec/features/login.rb --format documentation
