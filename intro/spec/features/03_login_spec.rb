@@ -56,9 +56,11 @@ feature 'Login Page: Valid Credentials Login to Secure Area' do
   end
 
   scenario 'tomsmith / SuperSecretPassword!' do
+    success_message = 'You logged into a secure area!'
     fill_in('Username', with: 'tomsmith')
     fill_in('Password', with: 'SuperSecretPassword!')
     click_button('Login')
     expect(page).to have_css('h2', text: 'Secure Area')
+    expect(page).to have_css('div.flash', text: success_message)
   end
 end

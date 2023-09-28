@@ -18,7 +18,7 @@ feature 'Debugging' do
     visit '/'
   end
 
-  scenario 'save_and_open_screenshot' do
+  scenario 'Save and Open Screenshot' do
     save_and_open_screenshot
   end
 end

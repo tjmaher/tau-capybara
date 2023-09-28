@@ -18,7 +18,7 @@ feature 'Debugging' do
     visit '/'
   end
 
-  scenario 'save_and_open_page' do
+  scenario 'Save and Open Page' do
     save_and_open_page
   end
 end
